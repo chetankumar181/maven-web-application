@@ -22,9 +22,9 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://54.253.232.40:9000/</sonar.host.url>
-                <sonar.login>9d39a1a29949cd16d51f7c4fcd1812a0b6086da5</sonar.login>
+                <sonar.login>b7105174cb04c11b3676fe6fb702a46e4412d770</sonar.login>
 		<! --<sonar.password>chetan</sonar.password>  -->
- 
+              
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -84,7 +84,13 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
-	
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
 		
 	</dependencies>
 	
